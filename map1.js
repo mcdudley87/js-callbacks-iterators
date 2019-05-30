@@ -6,3 +6,10 @@ var mneumonics = ['My Very Excellent Mother Just Sent Me Nine Pizzas', 'Please E
 
 // Your code here!
 
+
+var newMonic = mneumonics.map( function(name) {
+return name.split(' ');
+});
+
+console.log(newMonic);
+
